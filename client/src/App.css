@@ -1,0 +1,24 @@
+.admin-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.admin-userlist {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  flex-grow: 1;
+}
+
+.role-selection {
+  margin-left: 20px;
+}
+
+/* Additional styling can be added based on your design preferences */
